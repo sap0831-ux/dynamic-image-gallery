@@ -7,9 +7,11 @@
 }
 
 body {
-  background: linear-gradient(135deg, #003d4d, #00c996);
-  color: #fff;
-  min-height: 100vh;
+    background: linear-gradient(135deg, #003d4d, #00c996);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 /* Header */
@@ -143,7 +145,7 @@ button:hover {
 footer {
   text-align: center;
   padding: 20px;
-  margin-top: 20px;
+  margin-top: auto;
   background: rgba(0, 0, 0, 0.288);
   font-size: 0.9rem;
   opacity: 0.8;
